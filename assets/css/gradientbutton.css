@@ -1,0 +1,79 @@
+.instagram-gradient-button {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border: none; /* Remove default border */
+    color: white; /* Text color */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button an inline-block element */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+.instagram-gradient-button:hover {
+    background: linear-gradient(45deg, #bc1888, #cc2366, #dc2743, #e6683c, #f09433); /* Hover effect with reversed gradient */
+}
+
+
+.gradient-button {
+    border: none; /* Remove default border */
+    color: white; /* Text color */
+    padding: 5px 10px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button an inline-block element */
+   
+    /* margin: 4px 2px;  */
+    cursor: pointer; /* Pointer cursor on hover */
+    /* border-radius: 8px;  */
+    border-top-left-radius : 15px;
+    transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+/* Gradient 1: Cool Blue */
+.gradient1 {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+}
+
+.gradient1:hover {
+    background: linear-gradient(45deg, #2a5298, #1e3c72);
+}
+
+/* Gradient 2: Sunset */
+.gradient2 {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+}
+
+.gradient2:hover {
+    background: linear-gradient(45deg, #feb47b, #ff7e5f);
+}
+
+/* Gradient 3: Ocean Blue */
+.gradient3 {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+}
+
+.gradient3:hover {
+    background: linear-gradient(45deg, #0072ff, #00c6ff);
+}
+
+/* Gradient 4: Purple Dream */
+.gradient4 {
+    background: linear-gradient(45deg, #7b4397, #dc2430);
+}
+
+.gradient4:hover {
+    background: linear-gradient(45deg, #dc2430, #7b4397);
+}
+
+/* Gradient 5: Green Beach */
+.gradient5 {
+    background: linear-gradient(45deg, #02aab0, #00cdac);
+}
+
+.gradient5:hover {
+    background: linear-gradient(45deg, #00cdac, #02aab0);
+}

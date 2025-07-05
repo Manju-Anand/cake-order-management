@@ -1,0 +1,135 @@
+/*start dashboard*/
+.dash-25 {
+    font-size: 25px;
+}
+
+.card-sub-title {
+    font-size: 13px;
+    margin-block-start: -4px;
+}
+
+.activity-block .task-list li {
+    padding-inline-start: 25px;
+    margin-block-end: 18px;
+}
+
+.activity-block .task-list {
+    padding-block-start: 0;
+}
+
+.activity-block h6 {
+    margin-block-end: 0px;
+}
+
+.activity-block .task-list:after {
+    inset-inline-start: 5px;
+    z-index: 0;
+}
+
+.activity-block .task-list li .task-icon {
+    inset-block-start: 0;
+    inset-inline-start: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+.task-list {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding-block-start: 28px;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.task-list:after {
+    content: "";
+    position: absolute;
+    background: $default-border;
+    height: 100%;
+    width: 1px;
+    inset-block-start: 0;
+    inset-inline-start: 30px;
+    z-index: 1;
+}
+
+.task-list li {
+    margin-block-end: 20px;
+    padding-inline-start: 55px;
+    position: relative;
+}
+
+.task-list li:last-child {
+    margin-block-end: 0;
+}
+
+.task-list li .task-icon {
+    position: absolute;
+    inset-inline-start: 22px;
+    inset-block-start: 13px;
+    border-radius: 50%;
+    padding: 2px;
+    width: 17px;
+    height: 17px;
+    z-index: 2;
+}
+
+.task-list li h6 {
+    margin-block-end: 5px;
+}
+
+.main-img-user {
+    display: block;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}
+
+.flag {
+    width: 1.6rem;
+    height: 1.2rem;
+    display: inline-block;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    vertical-align: bottom;
+    font-style: normal;
+    box-shadow: 0 0 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 2px;
+}
+
+.flag-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 100%;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    vertical-align: bottom;
+    font-style: normal;
+}
+
+.flag-icon {
+    font-size: 24px;
+    line-height: 1;
+    border-radius: 100%;
+}
+
+
+    .select2-results__option span .custom-image,
+    .select2-selection__rendered span .custom-image {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 0px !important;
+        margin-inline-end: 0.25rem;
+        box-shadow: $box-shadow;
+    }
+
+/*end dashboard*/

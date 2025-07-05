@@ -1,0 +1,40 @@
+/* Start TreeView  Styles */
+
+.tree-leaf .tree-leaf-text {
+margin: 1px !important;
+font-size: 14px;
+font-weight: 500;
+}
+
+.tree-leaf .tree-leaf-text:hover {
+  color: $primary !important;
+}
+.tree-leaf-content{
+  margin-bottom: 0.5rem;
+}
+.tree-leaf .tree-expando {
+  background-color: $primary-01 !important;
+  height: 15px !important;
+  width: 15px !important;
+  padding: 9px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline-end: 0.5rem;
+}
+[dir="rtl"]{
+  .tree-leaf .tree-expando {
+    margin-inline-start: 0.5rem;
+  }
+}
+// .tree-leaf .tree-expando {
+  
+//   @apply rtl:float-right;
+// }
+// .tree-leaf .tree-leaf-text {
+//   @apply rtl:float-right;
+// }
+// .tree-leaf .tree-child-leaves {
+//   @apply rtl:mr-[15px] rtl:ml-0;
+// }
+/* End TreeView  Styles */

@@ -1,0 +1,27 @@
+.input-group-text {
+    border-color: $input-border;
+    font-size: 0.875rem;
+    border-radius: 3px;
+    background-color: $custom-white;
+    color: $default-text-color;
+    letter-spacing: 0;
+    .fe{
+        font-size: 14px;
+    }
+    .form-control {
+        border: 0;
+        border-start-start-radius: 0;
+        border-end-start-radius: 0;
+    }
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    border: 0;
+    border-block-start: 1px solid $default-border;
+    opacity: 3.12;
+    background-color: transparent;
+}
